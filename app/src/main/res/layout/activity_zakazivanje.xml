@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".zakazivanje"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zakazivanje"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text="Username: "
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:editable="false"
+            android:gravity="center_horizontal"
+            android:hint="username"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text="Sport: "
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            />
+
+        <EditText
+            android:id="@+id/sport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:editable="false"
+            android:gravity="center_horizontal"
+            android:hint="fudbal"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text="Datum: "
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            />
+
+        <EditText
+            android:id="@+id/datum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:editable="false"
+            android:gravity="center_horizontal"
+            android:hint="datum"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text="Vrijeme: "
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            />
+
+        <EditText
+            android:id="@+id/vrijeme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:editable="false"
+            android:gravity="center_horizontal"
+            android:hint="08:00-09:00"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text="Cijena: "
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            />
+
+        <EditText
+            android:id="@+id/cijena"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:editable="false"
+            android:gravity="center_horizontal"
+            android:hint="ena"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Zakaži"
+        android:background="#FAB333"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:id="@+id/dugme"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Posalji poruku"
+        android:background="#FAB333"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:id="@+id/poruka"/>
+
+
+</LinearLayout>

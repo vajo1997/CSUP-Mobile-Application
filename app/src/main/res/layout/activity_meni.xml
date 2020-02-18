@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".meni"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="#00FF00"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Zakaži termin"
+                android:textSize="30dp"
+
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Informacije o terenu"
+            android:textSize="20dp"
+            android:paddingTop="40dp"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:paddingBottom="15dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grad"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="#0000FF"
+                />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Podgorica"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="#FF0000"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sportovi"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="#0000FF"
+
+                />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fudbal"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="#FF0000"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cijena termina"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="#0000FF"
+
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="08:00-17:00 20e"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:textColor="#FF0000"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="08:00-17:00 20e"
+                    android:textSize="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:textColor="#FF0000"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Radno vrijeme"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="#0000FF"
+
+                />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08:00-00:00h"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="#FF0000"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kontakt telefon"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="#0000FF"
+
+                />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="067/235-921"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="#FF0000"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp"
+            android:id="@+id/tabela"
+            >
+            <TableRow
+
+                android:paddingTop="10dp"
+                android:paddingBottom="0dp"
+                android:background="#00CCFF"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Datum"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Od-Do"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sport"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+
+
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+
+
+
+
+            </TableRow>
+
+
+
+            <TableRow
+
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:id="@+id/row1"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20/12/2019"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#FF66FF"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12:00-13:00"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#FF9900"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fudbal"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#00FF00"
+
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/x"
+                    android:id="@+id/termin1"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+
+
+
+
+            </TableRow>
+
+            <TableRow
+
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="21/12/2019"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#FF66FF"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="18:00-19:00"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#FF9900"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fudbal"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#00FF00"
+
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/x"
+                    android:id="@+id/termin2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+
+
+
+
+            </TableRow>
+
+            <TableRow
+
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="22/12/2019"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#FF66FF"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20:00-21:00"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#FF9900"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fudbal"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#00FF00"
+
+                    />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/x"
+                    android:id="@+id/termin3"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    />
+
+
+
+
+
+            </TableRow>
+
+
+
+
+
+
+        </TableLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
