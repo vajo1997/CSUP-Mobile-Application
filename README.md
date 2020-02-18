@@ -10,7 +10,7 @@ We have three intents here. The first one is login. It is necessary to enter a u
 
 ### Logical View
 
-https://github.com/vajo1997/CSUP-Mobile-Application/blob/master/Logical%20view.png
+
 
 
 ### Technology Stack
